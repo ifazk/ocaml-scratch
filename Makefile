@@ -5,7 +5,11 @@
 default: all
 
 all:
-	dune build @install
+	dune build @all
+
+# Stop after type checking
+check:
+	dune build @check
 
 # Build and run tests
 test:
