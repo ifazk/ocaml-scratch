@@ -5,19 +5,19 @@
 default: all
 
 all:
-	jbuilder build @install
+	dune build @install
 
 # Build and run tests
 test:
-	jbuilder runtest
+	dune runtest
 
 utop:
-	jbuilder utop src
+	dune utop src
 
 # Clean up
 clean:
-# Remove files produced by jbuilder.
-	jbuilder clean
+# Remove files produced by dune.
+	dune clean
 
 cleanall:: clean
 

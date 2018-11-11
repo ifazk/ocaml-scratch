@@ -1,0 +1,7 @@
+(library
+ (name scratch)
+ (public_name scratch)
+ ;(libraries (base))
+ ;(preprocess (pps (ppx_jane)))
+ (synopsis "A starter project")
+)
