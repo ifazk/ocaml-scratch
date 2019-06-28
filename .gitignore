@@ -1,7 +1,8 @@
-# Jbuilder
+# Dune
 _build/
 *.merlin
 *.install
+*.opam
 
 # OPAM dir
 _opam/

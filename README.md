@@ -7,9 +7,8 @@ For quick REPL use, first put your definitions in `src/module.ml`. Then run
 `make utop` and access your definitions with `Scratch.Module.module_element`.
 
 ## Description of files and directories
-- `scratch.opam` - This contains some information about the project. It also
-  satisfies a `dune` requirment.
-- `dune-project` - This tells `jbuilder` where the project root is.
+- `dune-project` - This tells `dune` where the project root is, and contains
+  information about packages which are used to generate `.opam`files.
 - `Makefile` - Contains shortcuts to `dune` commands.
 - `src/` - This will contain your modules.
 - `src/dune` - This file tells `dune` where the source files are and how to
@@ -19,10 +18,9 @@ For quick REPL use, first put your definitions in `src/module.ml`. Then run
 
 ## Renaming the project
 To rename the project, few things need to be changed
-- `scratch.opam` needs to be renamed to another filename
-- The contents of `scratch.opam` need to be updated
-- The name of the `public_name` of the project needs to be changed for jbuilder
-  in `scr/jbuild`
+- The contents of `dune-project` need to be updated with information about
+- The name of the `public_name` of the project needs to be changed for `dune`
+  in `scr/dune`
 - You may want to remove `COPYING.txt` and add a `LICENSE.txt`
 
 ## Public Domain
