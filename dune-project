@@ -1,6 +1,8 @@
 (lang dune 1.10)
 (generate_opam_files true)
+
 (name scratch)
+(version 0.1.0)
 (source (github ifazk/ocaml-scratch))
 (license CC0-1.0)
 (authors "Ifaz Kabir")
