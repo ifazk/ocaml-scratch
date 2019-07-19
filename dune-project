@@ -7,6 +7,7 @@
 (license CC0-1.0)
 (authors "Ifaz Kabir")
 (maintainers "ifazk@users.noreply.github.com")
+(documentation https://ifazk.github.io/ocaml-scratch/)
 
 (package
  (name scratch)

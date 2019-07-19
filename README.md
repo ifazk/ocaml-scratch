@@ -18,10 +18,11 @@ For quick REPL use, first put your definitions in `src/module.ml`. Then run
 
 ## Renaming the project
 To rename the project, few things need to be changed
-- The contents of `dune-project` need to be updated with information about
-- The name of the `public_name` of the project needs to be changed for `dune`
-  in `scr/dune`
-- You may want to remove `COPYING.txt` and add a `LICENSE.txt`
+- The contents of `dune-project` need to be updated with information about the
+  project
+- You may want to change the license in `LICENSE.txt`, and change the
+  corresponding entry in `dune-project`
+- The `public_name` of the project needs to be changed in `scr/dune`
 
 ## Public Domain
 Written in 2018 by Ifaz Kabir
