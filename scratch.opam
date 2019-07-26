@@ -17,6 +17,6 @@ dev-repo: "git+https://github.com/ifazk/ocaml-scratch.git"
 synopsis: "A barebones OCaml starter project"
 description: "A longer description for the ocaml-scratch project"
 depends: [
-  "dune" {build & > "1.10"}
+  "dune" {build & >= "1.10"}
   "ocaml" {>= "4.07.1"}
 ]

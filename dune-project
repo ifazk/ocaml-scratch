@@ -14,5 +14,5 @@
  (synopsis "A barebones OCaml starter project")
  (description "A longer description for the ocaml-scratch project")
  (depends
-  (dune (and :build (> 1.10)))
+  (dune (and :build (>= 1.10)))
   (ocaml (>= 4.07.1))))
