@@ -1,7 +1,7 @@
-(lang dune 1.10)
+(lang dune 2.4)
 (generate_opam_files true)
 
-(name scratch)
+(name scratch) ; project name
 (version 0.1.0)
 (source (github ifazk/ocaml-scratch))
 (license CC0-1.0)
@@ -14,5 +14,5 @@
  (synopsis "A barebones OCaml starter project")
  (description "A longer description for the ocaml-scratch project")
  (depends
-  (dune (and :build (>= 1.10)))
-  (ocaml (>= 4.07.1))))
+  (dune (and :build (>= 2.4)))
+  (ocaml (>= 4.09.0))))
