@@ -1,5 +1,7 @@
 # scratch - A starter project for OCaml
 
+NOTE: This repo is archived. You no longer need a project like this since `dune init` works so well now.
+
 This repo is intended to be a quick and dirty starter project for OCaml using
 `dune`.
 
